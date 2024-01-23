@@ -4,7 +4,6 @@ lst = []
 for _ in range(n):
   a, b = input().split()
   a = int(a)
-  print(type(a))
   lst.append([a, b])
 
 
