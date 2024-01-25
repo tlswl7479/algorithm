@@ -1,7 +1,6 @@
 a, b, n = map(int, input().split())
 
-x = a / b
-num = x - (a // b)
-num = str(num)
-print(num)
-print(num[n + 1])
+for i in range(n):
+  a = (a % b) * 10
+  res = a // b
+print(res)
