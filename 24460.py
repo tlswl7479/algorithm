@@ -18,8 +18,8 @@ def find_special_seat(arr):
     second_min = min(candidate for candidate in candidates if candidate != min(candidates))
     return second_min
 
-if __name__ == "__main__":
-    N = int(input())
-    chairs = [list(map(int, input().split())) for _ in range(N)]
-    result = find_special_seat(chairs)
-    print(result)
+
+N = int(input())
+chairs = [list(map(int, input().split())) for _ in range(N)]
+result = find_special_seat(chairs)
+print(result)
